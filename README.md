@@ -8,7 +8,8 @@ Sitio de [databridgeconsulting.mx](https://databridgeconsulting.mx/). Es un siti
 index.html            Página principal (Inicio, Soluciones, Cómo trabajamos, Casos, Nosotros, Contacto)
 assets/css/styles.css Estilos con los colores y fuentes del Manual de Marca
 assets/js/main.js     Menú en celular y año del pie de página
-assets/img/           Logotipo, símbolo y favicon en SVG
+blog/                 Blog de Data Storytelling (un archivo HTML por artículo)
+assets/img/           Logotipo, símbolo, favicon y foto
 ```
 
 ## Cómo ver el sitio en tu computadora
@@ -21,5 +22,5 @@ Hostinger toma la rama `main` de este repositorio y la publica. Cada cambio apro
 
 ## Pendientes
 
-- Reemplazar el número de WhatsApp y el correo de contacto en `index.html` (buscar `PENDIENTE`).
+- Para publicar un artículo del blog: copia un archivo de `blog/`, cambia el contenido y agrega su tarjeta en `blog/index.html`.
 - Sustituir los casos demostrativos por capturas reales cuando los demos estén listos.
