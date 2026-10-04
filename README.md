@@ -22,5 +22,5 @@ Hostinger toma la rama `main` de este repositorio y la publica. Cada cambio apro
 
 ## Pendientes
 
-- Para publicar un artículo del blog: copia un archivo de `blog/`, cambia el contenido y agrega su tarjeta en `blog/index.html`.
+- Para publicar un artículo del blog: copia un archivo de `blog/`, cambia el contenido, agrega su tarjeta en `blog/index.html` y su dirección en `sitemap.xml`.
 - Sustituir los casos demostrativos por capturas reales cuando los demos estén listos.

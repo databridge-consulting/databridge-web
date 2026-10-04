@@ -1,0 +1,2 @@
+# Página de error con la marca
+ErrorDocument 404 /404.html
