@@ -24,3 +24,7 @@ Hostinger toma la rama `main` de este repositorio y la publica. Cada cambio apro
 
 - Para publicar un artículo del blog: copia un archivo de `blog/`, cambia el contenido, agrega su tarjeta en `blog/index.html` y su dirección en `sitemap.xml`.
 - Sustituir los casos demostrativos por capturas reales cuando los demos estén listos.
+
+## Versiones de CSS y JS
+
+Las páginas cargan `styles.css?v=AAAAMMDD` y `main.js?v=AAAAMMDD`. Al cambiar cualquiera de esos archivos, actualiza la fecha en todas las páginas para que los navegadores descarguen la versión nueva.

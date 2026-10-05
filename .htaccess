@@ -1,2 +1,9 @@
 # Página de error con la marca
 ErrorDocument 404 /404.html
+
+# Que el navegador siempre pida la versión más reciente de las páginas
+<IfModule mod_headers.c>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
