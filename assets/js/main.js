@@ -20,7 +20,7 @@
 
 // Google Analytics con aviso de cookies (el visitante puede rechazarlas)
 (function () {
-  var GA_ID = 'G-XXXXXXXXXX'; // ID de medición de Google Analytics
+  var GA_ID = 'G-STTLFLNSL1'; // ID de medición de Google Analytics
   var KEY = 'db-cookies';
   if (!/^G-[A-Z0-9]+$/.test(GA_ID) || GA_ID === 'G-XXXXXXXXXX') return;
 
