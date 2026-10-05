@@ -298,3 +298,12 @@ p { margin: 0; }
 /* Aviso simplificado junto al contacto */
 .privacy-note { font-size: .82rem; line-height: 1.5; color: var(--on-dark-muted); border-top: 1px solid rgba(255, 255, 255, .14); padding-top: 14px; }
 .privacy-note a { color: var(--white); }
+
+/* Aviso de cookies */
+.cookie-banner { position: fixed; left: 16px; right: 16px; bottom: 16px; z-index: 50; max-width: 720px; margin: 0 auto; background: var(--indigo); color: var(--white); border-radius: var(--radius); padding: 16px 20px; box-shadow: 0 10px 30px rgba(19, 41, 75, .3); display: flex; gap: 16px; align-items: center; flex-wrap: wrap; }
+.cookie-banner p { margin: 0; flex: 1 1 320px; font-size: .92rem; line-height: 1.5; color: var(--on-dark-muted); }
+.cookie-banner a { color: var(--white); }
+.cookie-actions { display: flex; gap: 10px; }
+.btn-small { padding: 8px 16px; font-size: .9rem; }
+.btn-ghost { background: transparent; color: var(--white); border-color: rgba(255, 255, 255, .5); }
+.btn-ghost:hover { background: rgba(255, 255, 255, .12); box-shadow: none; }
